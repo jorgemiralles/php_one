@@ -1,6 +1,5 @@
 <?php
 include('../src/add.php');
-namespace App\Test;
 
 use App\MyClass;
 
