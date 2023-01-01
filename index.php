@@ -1,7 +1,11 @@
 <h1>
 <?php
 
-echo "hola";
+function add($a, $b){
+    return $a + $b;
+}
+
+echo(add(1,2));
 
 ?>
 </h1>
