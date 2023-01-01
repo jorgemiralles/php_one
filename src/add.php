@@ -7,7 +7,7 @@ class MyClass {
     }
 }
 
-public function multi($a, $b){
-    return $a * $b;
-}
+// public function multi($a, $b){
+//     return $a * $b;
+// }
 ?>
