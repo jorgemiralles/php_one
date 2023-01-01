@@ -1,5 +1,5 @@
 <?php
-namespace test;
+namespace App\Test;
 
 use App\MyClass;
 
