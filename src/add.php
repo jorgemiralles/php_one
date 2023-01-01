@@ -1,7 +1,7 @@
 <?php
 namespace App;
 
-class MyClass {
+class MyClass2 {
     public function add($a, $b){
         return $a + $b;
     }
