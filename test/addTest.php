@@ -1,13 +1,13 @@
 <?php
 namespace test;
 
-require "../src/add.php";
+use App\MyClass;
 
 class Test1Test extends \PHPUnit\Framework\TestCase {
 
 	public function testAdd(): void  {
-
-		$this->assertEquals(add(1,2), 3);
+		$myObj = new MyClass();
+		$this->assertEquals($myObj->add(1,2), 3);
 	}
 
 }

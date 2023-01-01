@@ -1,11 +1,10 @@
-<h1>
 <?php
 
 namespace App;
 
-function add($a, $b){
-    return $a + $b;
+class MyClass {
+    public function add($a, $b){
+        return $a + $b;
+    }
 }
-
 ?>
-</h1>
