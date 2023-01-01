@@ -1,7 +1,7 @@
 <?php
 namespace test;
 
-use App;
+require "../src/add.php"
 
 class Test1Test extends \PHPUnit\Framework\TestCase {
 
