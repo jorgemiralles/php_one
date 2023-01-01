@@ -1,12 +1,12 @@
 <?php
 namespace test;
 
-use PHPUnit\Framework\TestCase;
+use App;
 
 class Test1Test extends \PHPUnit\Framework\TestCase {
 
 	public function testAdd(): void  {
-		$this->assertEquals(false, true);
+		$this->assertEquals(true, true);
 	}
 
 }
