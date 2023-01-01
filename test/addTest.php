@@ -1,7 +1,7 @@
 <?php
 namespace App\Test;
 
-use App\MyClass;
+//use App\MyClass;
 
 class MyClass {
     public function add($a, $b){
